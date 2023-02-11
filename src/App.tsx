@@ -1,17 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import TerminalController from "./Components/Terminal/TerminalController";
+import Hello from "./Components/Hello/Hello";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
-      <div className="App"></div>
-      <div className="Terminal">
+    <div className="App">
+      <div className="terminal">
         <TerminalController />
       </div>
+      <div className="project"></div>
     </div>
   );
 }
