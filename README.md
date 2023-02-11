@@ -1,3 +1,5 @@
+![react-terminal](public/react-terminal.png)
+
 ### Building a devops project portfolio
 
 ### Tools I'll be using:
